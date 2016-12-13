@@ -13,6 +13,7 @@
 		EC341DA31E009C5400481F3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9A1E009C5400481F3D /* Info.plist */; };
 		EC341DA41E009C5400481F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9E1E009C5400481F3D /* LaunchScreen.storyboard */; };
 		EC341DA51E009C5400481F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9F1E009C5400481F3D /* Main.storyboard */; };
+		EC341DA71E00A02B00481F3D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341DA61E00A02B00481F3D /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EC341D9A1E009C5400481F3D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC341D9E1E009C5400481F3D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC341D9F1E009C5400481F3D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EC341DA61E00A02B00481F3D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		EC341D961E009C5400481F3D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC341DA61E00A02B00481F3D /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				EC341DA01E009C5400481F3D /* AppDelegate.swift in Sources */,
 				EC341DA11E009C5400481F3D /* ViewController.swift in Sources */,
+				EC341DA71E00A02B00481F3D /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
