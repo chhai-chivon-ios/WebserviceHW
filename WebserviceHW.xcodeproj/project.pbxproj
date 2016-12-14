@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		EC341DA01E009C5400481F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341D921E009C5400481F3D /* AppDelegate.swift */; };
-		EC341DA11E009C5400481F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341D941E009C5400481F3D /* ViewController.swift */; };
 		EC341DA21E009C5400481F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC341D981E009C5400481F3D /* Assets.xcassets */; };
 		EC341DA31E009C5400481F3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9A1E009C5400481F3D /* Info.plist */; };
 		EC341DA41E009C5400481F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9E1E009C5400481F3D /* LaunchScreen.storyboard */; };
 		EC341DA51E009C5400481F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9F1E009C5400481F3D /* Main.storyboard */; };
 		EC341DA71E00A02B00481F3D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341DA61E00A02B00481F3D /* Product.swift */; };
 		EC341DA91E00A3C300481F3D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341DA81E00A3C300481F3D /* HomeTableViewController.swift */; };
+		EC6E65901E00E32600D6703B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E658F1E00E32600D6703B /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC341D7C1E009B4D00481F3D /* WebserviceHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebserviceHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC341D921E009C5400481F3D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC341D941E009C5400481F3D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC341D981E009C5400481F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC341D9A1E009C5400481F3D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC341D9E1E009C5400481F3D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC341D9F1E009C5400481F3D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC341DA61E00A02B00481F3D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EC341DA81E00A3C300481F3D /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		EC6E658F1E00E32600D6703B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,6 @@
 		EC341D931E009C5400481F3D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EC341D941E009C5400481F3D /* ViewController.swift */,
 				EC341DA81E00A3C300481F3D /* HomeTableViewController.swift */,
 			);
 			path = Controllers;
@@ -130,6 +129,7 @@
 		EC341D9C1E009C5400481F3D /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				EC6E658F1E00E32600D6703B /* HomeTableViewCell.swift */,
 			);
 			path = "Custom Cell";
 			sourceTree = "<group>";
@@ -217,8 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC341DA91E00A3C300481F3D /* HomeTableViewController.swift in Sources */,
+				EC6E65901E00E32600D6703B /* HomeTableViewCell.swift in Sources */,
 				EC341DA01E009C5400481F3D /* AppDelegate.swift in Sources */,
-				EC341DA11E009C5400481F3D /* ViewController.swift in Sources */,
 				EC341DA71E00A02B00481F3D /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +360,7 @@
 				EC341D901E009B4D00481F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
