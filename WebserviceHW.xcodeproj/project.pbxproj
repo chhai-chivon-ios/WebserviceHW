@@ -14,6 +14,7 @@
 		EC341DA41E009C5400481F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9E1E009C5400481F3D /* LaunchScreen.storyboard */; };
 		EC341DA51E009C5400481F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC341D9F1E009C5400481F3D /* Main.storyboard */; };
 		EC341DA71E00A02B00481F3D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341DA61E00A02B00481F3D /* Product.swift */; };
+		EC341DA91E00A3C300481F3D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC341DA81E00A3C300481F3D /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EC341D9E1E009C5400481F3D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC341D9F1E009C5400481F3D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC341DA61E00A02B00481F3D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EC341DA81E00A3C300481F3D /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				EC341D941E009C5400481F3D /* ViewController.swift */,
+				EC341DA81E00A3C300481F3D /* HomeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC341DA91E00A3C300481F3D /* HomeTableViewController.swift in Sources */,
 				EC341DA01E009C5400481F3D /* AppDelegate.swift in Sources */,
 				EC341DA11E009C5400481F3D /* ViewController.swift in Sources */,
 				EC341DA71E00A02B00481F3D /* Product.swift in Sources */,
